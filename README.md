@@ -2,6 +2,8 @@
 
 ## Pick your favorite dessert
 
+Check out the live demo: https://pickyourfavouritedessert.herokuapp.com/
+
 ## There are three stages to the project.
 
 ### First phase: A cosine similarity-based content-based recommendation system that displays 5 or 6 dessert choices depending on the dessert we selected. As a result, the model will be trained on specific characteristics such as the dessert's kind, origin, and primary components.
