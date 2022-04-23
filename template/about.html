@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+
+    <header>
+      <a href="#" class="brand">Made With <i class="fa fa-heart"></i> For Desserts</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <div class="navigation-items">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/recommendor">Dessert Recommendation</a>
+          <a href="/baking">Whats Baking?</a>
+          <a href="/builder">Recipe Builder</a>
+        </div>
+      </div>
+    </header>
+    
+    <section class="sec-01">
+    <div class="container">
+    <h2 class="main-title">OUR SERVICES</h2>
+    <h1 id="detail" style="font-size: 20px;color:white;font-family:'Rowdies',cursive;">Dessert Recommendation</h1>
+    <h2 id="detail" style="font-size: 20px;color:white;font-family:'Rowdies',cursive;">A content based recommendation system that displays the top recommended desserts based on users input choice</h2>
+    
+    <h1 id="detail" style="font-size: 20px;color:white;font-family:'Rowdies',cursive;"><br>Whats baking?</h1>
+    <h2 id="detail" style="font-size: 20px;color:white;font-family:'Rowdies',cursive;">A recommendation system that will look through over 2000 recipes to find recipe matches based on users choice of ingredients</h2>
+
+    <h1 id="detail" style="font-size: 20px;color:white;font-family:'Rowdies',cursive;"><br>Recipe Builder</h1>
+    <h2 id="detail" style="font-size: 20px;color:white;font-family:'Rowdies',cursive;">A ML based system that will differentiate cake, cookie and bread recipes</h2>
+    </div>
+    </section>  
+    
+    <section class="sec-01">
+      <div class="container">
+        <h2 class="main-title">ABOUT US</h2>
+        <div class="content">
+          <div class="image">
+            <img src="{{ url_for('static', filename='img3.jpg')}}" alt="">
+          </div>
+          <div class="text-box">
+            <p>We are a group of five aspiring Data Scientists pursuing post graduate certificate course in Artificial Intelligence and Machine Learning in Lambton College,Toronto</p>
+          </div>
+        </div>
+        <div class="media-icons">
+          <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>    
+
+  </body>
+</html>
